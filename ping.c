@@ -254,7 +254,7 @@ static void icmp_statistics()
 
 int main(int argc, char* argv[])
 {
-	struct hostend* host = NULL;
+	struct hostent* host = NULL;
 	struct protoent* protocol = NULL;
 	char protoname[] = "icmp";
 	unsigned long inaddr = 1;
